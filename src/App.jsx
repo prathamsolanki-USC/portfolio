@@ -3,8 +3,8 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Layout from '@/components/Layout'   // adjust if your alias is @/
 
 // import each page component
-import HomePage        from '@/components/Pages/Home'
-import ProjectsPage from '@/components/Pages/Projects'
+import HomePage        from '@/components/pages/Home'
+import ProjectsPage from '@/components/pages/Projects'
 import AboutPage from '@/components/pages/About'
 import ContactPage from '@/components/pages/Contact'
 import ProjectDetailsPage from '@/components/pages/ProjectDetails'
