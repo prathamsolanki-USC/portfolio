@@ -22,6 +22,7 @@ export default function App() {
         <Route path="about"           element={<AboutPage />} />
         <Route path="contact"           element={<ContactPage />} /> 
         <Route path="project-details" element={<ProjectDetailsPage />} />
+        
 
         
 
