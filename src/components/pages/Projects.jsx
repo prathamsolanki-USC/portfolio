@@ -11,7 +11,7 @@ import { ArrowRight, Github, ExternalLink, Brain, BarChart3, Database, TrendingU
 const projects = [
     {
         id: 1,
-        title: "AI-Powered Customer Churn Prediction",
+        title: "AI-Powered Customer Churn Prediction2222222222",
         description: "Advanced machine learning ensemble model achieving 95% accuracy in predicting customer churn across 50,000+ users.",
         image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
         technologies: ["Python", "XGBoost", "Scikit-learn", "Pandas", "SHAP"],
