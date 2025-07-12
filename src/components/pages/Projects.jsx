@@ -11,15 +11,12 @@ import { ArrowRight, Github, ExternalLink, Brain, BarChart3, Database, TrendingU
 const projects = [
     {
         id: 1,
-        title: "AI-Powered Customer Churn Prediction333",
-        description: "Advanced machine learning ensemble model achieving 95% accuracy in predicting customer churn across 50,000+ users.",
+        title: "Swarm - Guard : Multimodal Misinformation Detection",
+        description: "Built a robust detection system combining text, image, and graph data using BERT, ViT, and GraphSAGE encoders. Designed a TriModal fusion architecture to combat astroturfing and disinformation campaigns under extreme class imbalance.",
         image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-        technologies: ["Python", "XGBoost", "Scikit-learn", "Pandas", "SHAP"],
-        github_url: "https://github.com",
-        live_url: "https://demo.example.com",
-        category: "machine_learning",
-        impact: "25% reduction in churn",
-        complexity: "advanced",
+        technologies: ["Python", "PyTorch", "Hugging Face", "BERT", "Vision Transformers", "GraphSAGE", "PEFT"],
+        github_url: "https://github.com/prathamsolanki-USC/swarmguard",
+        category: "Deep Learning",
         icon: Brain
     },
     {
