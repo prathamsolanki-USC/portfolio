@@ -16,7 +16,8 @@ const projects = [
         image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
         technologies: ["Python", "PyTorch", "Hugging Face", "BERT", "Vision Transformers", "GraphSAGE", "PEFT"],
         github_url: "https://github.com/prathamsolanki-USC/swarmguard",
-        category: "Deep Learning",
+        category: "deep_learning",
+        impact: "5% fake-news class imbalance, achieving over 81% F1-score on minority class.",
         icon: Brain
     },
     {
