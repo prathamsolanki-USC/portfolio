@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils/temp';
 import { motion } from 'framer-motion';
-import { ArrowRight, BrainCircuit, BarChart, Database } from 'lucide-react';
+import { ArrowRight, BrainCircuit, BarChart, Database,Atom } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -10,7 +10,7 @@ import { Card, CardContent } from '@/components/ui/card';
 const personalInfo = {
     full_name: "Pratham Solanki",
     title: "Data Scientist & AI Specialist",
-    bio: "Passionate about AI solutions that put users first, creates real-world impact, and powers intelligent systems that drive business growth.",
+    bio: "Passionate about AI solutions that put users first, creates real-world impact and powers intelligent systems that drive business growth.",
     profile_image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
 };
 
@@ -135,94 +135,94 @@ function ProfileImageSection({ personalInfo }) {
 }
 
 // Featured Projects Component
-// function FeaturedProjects({ projects }) {
-//     return (
-//         <section className="py-24 bg-gray-950">
-//             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-//                 <motion.div 
-//                     initial={{ opacity: 0, y: 20 }}
-//                     whileInView={{ opacity: 1, y: 0 }}
-//                     viewport={{ once: true }}
-//                     className="text-center mb-16"
-//                 >
-//                     <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
-//                     <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-//                         Explore some of my most impactful work in data science and machine learning
-//                     </p>
-//                 </motion.div>
+function FeaturedProjects({ projects }) {
+    return (
+        <section className="py-24 bg-gray-950">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <motion.div 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="text-center mb-16"
+                >
+                    <h2 className="text-4xl font-bold text-white mb-4">Featured Projects</h2>
+                    <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+                        Explore some of my most impactful work in data science and machine learning
+                    </p>
+                </motion.div>
                 
-//                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-//                     {projects.map((project, index) => (
-//                         <motion.div 
-//                             key={project.id}
-//                             initial={{ opacity: 0, y: 20 }}
-//                             whileInView={{ opacity: 1, y: 0 }}
-//                             viewport={{ once: true }}
-//                             transition={{ duration: 0.5, delay: index * 0.1 }}
-//                         >
-//                             <Card className="group overflow-hidden hover:shadow-2xl hover:shadow-teal-900/20 transition-all duration-300 border-gray-700 shadow-lg bg-gray-800 text-white">
-//                                 <div className="relative overflow-hidden">
-//                                     <img 
-//                                         src={project.image_url} 
-//                                         alt={project.title} 
-//                                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" 
-//                                     />
-//                                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-//                                 </div>
-//                                 <CardContent className="p-6">
-//                                     <h3 className="font-bold text-xl text-white mb-2 group-hover:text-teal-400 transition-colors">
-//                                         {project.title}
-//                                     </h3>
-//                                     <p className="text-gray-400 mb-4 line-clamp-3">{project.description}</p>
-//                                     <div className="flex flex-wrap gap-2 mb-4">
-//                                         {project.technologies?.slice(0, 3).map(tech => (
-//                                             <span key={tech} className="bg-teal-900/50 text-teal-300 text-xs font-medium px-2.5 py-1 rounded-full">
-//                                                 {tech}
-//                                             </span>
-//                                         ))}
-//                                     </div>
-//                                     <Link 
-//                                         to={createPageUrl(`ProjectDetails?id=${project.id}`)} 
-//                                         className="text-teal-400 hover:text-teal-300 font-medium inline-flex items-center gap-2"
-//                                     >
-//                                         Learn More <ArrowRight className="h-4 w-4" />
-//                                     </Link>
-//                                 </CardContent>
-//                             </Card>
-//                         </motion.div>
-//                     ))}
-//                 </div>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {projects.map((project, index) => (
+                        <motion.div 
+                            key={project.id}
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}
+                        >
+                            <Card className="group overflow-hidden hover:shadow-2xl hover:shadow-teal-900/20 transition-all duration-300 border-gray-700 shadow-lg bg-gray-800 text-white">
+                                <div className="relative overflow-hidden">
+                                    <img 
+                                        src={project.image_url} 
+                                        alt={project.title} 
+                                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" 
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                                </div>
+                                <CardContent className="p-6">
+                                    <h3 className="font-bold text-xl text-white mb-2 group-hover:text-teal-400 transition-colors">
+                                        {project.title}
+                                    </h3>
+                                    <p className="text-gray-400 mb-4 line-clamp-3">{project.description}</p>
+                                    <div className="flex flex-wrap gap-2 mb-4">
+                                        {project.technologies?.slice(0, 3).map(tech => (
+                                            <span key={tech} className="bg-teal-900/50 text-teal-300 text-xs font-medium px-2.5 py-1 rounded-full">
+                                                {tech}
+                                            </span>
+                                        ))}
+                                    </div>
+                                    <Link 
+                                        to={createPageUrl(`ProjectDetails?id=${project.id}`)} 
+                                        className="text-teal-400 hover:text-teal-300 font-medium inline-flex items-center gap-2"
+                                    >
+                                        Learn More <ArrowRight className="h-4 w-4" />
+                                    </Link>
+                                </CardContent>
+                            </Card>
+                        </motion.div>
+                    ))}
+                </div>
                 
-//                 <div className="text-center mt-12">
-//                     <Button asChild variant="outline" size="lg" className="border-teal-500 text-teal-400 hover:bg-teal-500/10 hover:text-teal-300 font-bold px-8 py-3 rounded-full">
-//                         <Link to={createPageUrl('Projects')}>
-//                             View All Projects <ArrowRight className="ml-2 h-4 w-4" />
-//                         </Link>
-//                     </Button>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// }
+                <div className="text-center mt-12">
+                    <Button asChild variant="outline" size="lg" className="border-teal-500 text-teal-400 hover:bg-teal-500/10 hover:text-teal-300 font-bold px-8 py-3 rounded-full">
+                        <Link to={createPageUrl('Projects')}>
+                            View All Projects <ArrowRight className="ml-2 h-4 w-4" />
+                        </Link>
+                    </Button>
+                </div>
+            </div>
+        </section>
+    );
+}
 
 // Core Competencies Component
 function CoreCompetencies() {
     const competencies = [
         { 
             title: "Machine Learning", 
-            description: "Building predictive models and intelligent algorithms that solve complex business problems.", 
+            description: "Predictive modeling that transforms data signals into strategic foresight.", 
             icon: BrainCircuit,
             color: "from-teal-500 to-cyan-500"
         },
         { 
-            title: "Data Visualization", 
-            description: "Creating compelling and interactive dashboards that tell meaningful stories.", 
-            icon: BarChart,
+            title: "AI & LLMs", 
+            description: "Specialized in fine-tuning LLMs, building RAG systems, and deploying intelligent agents for real-world applications.", 
+            icon: Atom,
             color: "from-blue-500 to-sky-500"
         },
         { 
             title: "Data Engineering", 
-            description: "Designing scalable data pipelines and robust storage architectures.", 
+            description: "Designing scalable cloud-based data pipelines and robust storage architectures.", 
             icon: Database,
             color: "from-emerald-500 to-green-500"
         },
