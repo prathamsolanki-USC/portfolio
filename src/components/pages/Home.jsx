@@ -8,7 +8,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 // Static data
 const personalInfo = {
-    full_name: "Pratham Solanki",
+    full_name: "Pratham",
     title: "Data Scientist & AI Specialist",
     bio: "Passionate about AI solutions that put users first, creates real-world impact and powers intelligent systems that drive business growth.",
     profile_image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
@@ -215,7 +215,7 @@ function CoreCompetencies() {
             color: "from-teal-500 to-cyan-500"
         },
         { 
-            title: "AI & LLMs", 
+            title: "AI & LLM's", 
             description: "Specialized in fine-tuning LLMs, building RAG systems, and deploying intelligent agents for real-world applications.", 
             icon: Atom,
             color: "from-blue-500 to-sky-500"

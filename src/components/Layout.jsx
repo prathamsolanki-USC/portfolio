@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // Static data
 const personalInfo = {
-    full_name: "Pratham",
+    full_name: "Pratham Solanki",
     social_links: {
         github: "https://github.com/prathamsolanki-USC?tab=repositories",
         linkedin: "https://www.linkedin.com/in/pratham-solanki12/",
