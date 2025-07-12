@@ -58,13 +58,13 @@ const projects = [
     },
     {
         id: 5,
-        title: "Supply Chain Optimization Engine",
-        description: "AI-powered optimization system reducing logistics costs by 20% through predictive demand forecasting and route optimization.",
+        title: "Hybrid Recommender System",
+        description: "Built a hybrid recommender using collaborative filtering, BERT-based sentiment analysis, and XGBoost on 26GB+ Yelp data. Leveraged Apache Spark for large-scale preprocessing and Optuna for model tuning.",
         image_url: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
-        technologies: ["R", "OptaPlanner", "Shiny", "MongoDB", "Plotly"],
+        technologies: ["Apache Spark", "Pyspark", "BERT", "Optuna", "NLP", "MLib", "Python"],
         github_url: "https://github.com",
-        category: "optimization",
-        impact: "20% cost reduction",
+        category: "machine_learning",
+        impact: "Enhanced recommendation quality by over 40% compared to baseline modelss",
         complexity: "advanced",
         icon: TrendingUp
     },

@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // Static data
 const personalInfo = {
-    full_name: "Alex Doe",
+    full_name: "Pratham",
     social_links: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
+        github: "https://github.com/prathamsolanki-USC?tab=repositories",
+        linkedin: "https://www.linkedin.com/in/pratham-solanki12/",
         twitter: "https://twitter.com"
     }
 };
