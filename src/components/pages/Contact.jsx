@@ -8,13 +8,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 // Static data
 const personalInfo = {
-    email: "alex.doe@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
+    email: "pratham.solanki12@gmail.com",
+    phone: "+1 (949) 213-8321",
+    location: "Los Angeles, CA",
     availability: "available",
     social_links: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com",
+        github: "https://github.com/prathamsolanki-USC",
+        linkedin: "https://www.linkedin.com/in/pratham-solanki12/",
         twitter: "https://twitter.com"
     }
 };
@@ -134,10 +134,10 @@ export default function ContactPage() {
                                className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                                 <Linkedin className="h-6 w-6 text-white" />
                             </a>
-                            <a href={personalInfo.social_links.twitter} target="_blank" rel="noopener noreferrer"
+                            {/* <a href={personalInfo.social_links.twitter} target="_blank" rel="noopener noreferrer"
                                className="w-12 h-12 bg-sky-500 rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors">
                                 <Twitter className="h-6 w-6 text-white" />
-                            </a>
+                            </a> */}
                         </div>
                     </motion.div>
 

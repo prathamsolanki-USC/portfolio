@@ -112,9 +112,6 @@ function Footer() {
                         <a href={personalInfo.social_links.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors">
                             <Linkedin className="h-5 w-5" />
                         </a>
-                        <a href={personalInfo.social_links.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors">
-                            <Twitter className="h-5 w-5" />
-                        </a>
                     </div>
                 </div>
             </div>

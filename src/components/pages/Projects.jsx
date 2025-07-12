@@ -252,7 +252,7 @@ export default function ProjectsPage() {
                         </div>
                         <p className="text-xl text-gray-400 max-w-4xl mx-auto leading-relaxed">
                             Transforming complex data into actionable insights through advanced machine learning, 
-                            deep learning, and statistical analysis. Each project represents a real-world solution 
+                            deep learning, and AI solutions. Each project represents a real-world solution 
                             with measurable business impact.
                         </p>
                         <div className="flex items-center justify-center gap-8 mt-8 text-sm">

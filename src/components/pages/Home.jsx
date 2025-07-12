@@ -8,7 +8,7 @@ import { Card, CardContent } from '@/components/ui/card';
 
 // Static data
 const personalInfo = {
-    full_name: "Pratham",
+    full_name: "Pratham ",
     title: "Data Scientist & AI Specialist",
     bio: "Passionate about AI solutions that put users first, creates real-world impact and powers intelligent systems that drive business growth.",
     profile_image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
@@ -58,9 +58,12 @@ function InitialHero({ personalInfo }) {
                 >
                     <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight text-white">
                         <span className="block">Hello, I'm</span>
-                        <span className="block bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent mt-4">
-                            {personalInfo.full_name}
-                        </span>
+<span className="mt-4 inline-flex items-center">
+  <span className="bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent text-6xl sm:text-7xl lg:text-8xl font-extrabold">
+    {personalInfo.full_name}
+  </span>
+  <span className="text-7xl ml-3"> 😊</span>
+</span>
                     </h1>
                 </motion.div>
             </div>
@@ -215,7 +218,7 @@ function CoreCompetencies() {
             color: "from-teal-500 to-cyan-500"
         },
         { 
-            title: "AI & LLM's", 
+            title: "AI & LLMs", 
             description: "Specialized in fine-tuning LLMs, building RAG systems, and deploying intelligent agents for real-world applications.", 
             icon: Atom,
             color: "from-blue-500 to-sky-500"
