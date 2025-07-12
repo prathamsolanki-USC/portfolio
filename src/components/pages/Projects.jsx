@@ -42,7 +42,7 @@ const projects = [
         category: "machine_learning",
         impact: "Achieved a Macro F1 score of 0.79, outperforming baselines.",
         complexity: "expert",
-        icon: Bot
+        icon: Brain
     },
     {
         id: 4,
@@ -54,7 +54,7 @@ const projects = [
         category: "data_visualization",
         impact: "81% accuracy in global trend prediction.",
         complexity: "advanced",
-        icon: Eye
+        icon: TrendingUp
     },
     {
         id: 5,
@@ -66,7 +66,7 @@ const projects = [
         category: "machine_learning",
         impact: "Enhanced recommendation quality by over 40% compared to baseline modelss",
         complexity: "advanced",
-        icon: TrendingUp
+        icon: Brain
     },
     {
         id: 6,
@@ -78,15 +78,15 @@ const projects = [
         category: "AI",
         impact: "Boosted emotional well-being and daily engagement for elderly users",
         complexity: "expert",
-        icon: Eye
+        icon: Bot
     },
         {
         id: 7,
         title: "Smart Number Plate Recognition System Owner Lookup",
         description: "Built a license plate recognition tool using OpenCV, EasyOCR, and Selenium to detect plates, extract text, and auto-fetch owner details from government databases.",
-        image_url: "https://github.com/prathamsolanki-USC/Smart-Number-Plate-Recognition-System-Owner-Lookup",
+        image_url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
         technologies: ["Python","OpenCV", "Selenium", "easyOCR"],
-        github_url: "https://github.com/prathamsolanki-USC/ElderlyCompanionAI",
+        github_url: "https://github.com/prathamsolanki-USC/Smart-Number-Plate-Recognition-System-Owner-Lookup",
         category: "omputer_vision",
         impact: " Achieved 90% accuracy with strong performance on noisy, real-world images",
         complexity: "expert",
@@ -94,13 +94,13 @@ const projects = [
     },
         {
         id: 8,
-        title: "ElderlyCompanionAI",
-        description: "Developed a virtual companion for seniors enabling empathetic conversations, mood-aware tone shifts, and daily reminders using fine-tuned LLaMA 8B model.",
+        title: "PicPortal",
+        description: "Developed a dynamic photo album platform using Django with features like carousels, multi-image uploads, and role-based access. Enabled users to browse and download images while admins manage albums seamlessly.",
         image_url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
-        technologies: ["Python","QLoRA", "PEFT", "AWS", "GCP"],
-        github_url: "https://github.com/prathamsolanki-USC/ElderlyCompanionAI",
-        category: "AI",
-        impact: "Boosted emotional well-being and daily engagement for elderly users",
+        technologies: ["Django", "HTML", "CSS", "AWS S3", "JS"],
+        github_url: "https://github.com/prathamsolanki-USC/PicPortal",
+        category: "",
+        impact: "Streamlined photo management with a responsive, user-friendly interface.",
         complexity: "expert",
         icon: Eye
     },
