@@ -70,13 +70,13 @@ const projects = [
     },
     {
         id: 6,
-        title: "Computer Vision Product Classifier",
-        description: "CNN-based image recognition API achieving 98% accuracy in product categorization with real-time inference capabilities.",
+        title: "ElderlyCompanionAI",
+        description: "Developed a virtual companion for seniors enabling empathetic conversations, mood-aware tone shifts, and daily reminders using fine-tuned LLaMA 8B model.",
         image_url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
-        technologies: ["PyTorch", "FastAPI", "OpenCV", "Docker", "AWS Lambda"],
-        github_url: "https://github.com",
-        category: "computer_vision",
-        impact: "98% classification accuracy",
+        technologies: ["Python","QLoRA", "PEFT", "AWS", "GCP"],
+        github_url: "https://github.com/prathamsolanki-USC/ElderlyCompanionAI",
+        category: "AI",
+        impact: "Boosted emotional well-being and daily engagement for elderly users",
         complexity: "expert",
         icon: Eye
     }
@@ -88,7 +88,7 @@ const categories = {
     deep_learning: { name: "Deep Learning", color: "bg-purple-600" },
     data_visualization: { name: "Data Visualization", color: "bg-green-600" },
     computer_vision: { name: "Computer Vision", color: "bg-orange-600" },
-    optimization: { name: "Optimization", color: "bg-teal-600" }
+    AI: { name: "AI", color: "bg-teal-600" }
 };
 
 function ProjectCard({ project, index }) {
