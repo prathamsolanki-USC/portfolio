@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Briefcase, Calendar, MapPin, Code, Database, Zap, Award,CloudCog,ChartNoAxesCombined } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, Code, Database, Zap, Award,CloudCog,ChartNoAxesCombined,LayoutPanelTop,ChartColumnIncreasing,BookOpenText} from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 // Static data
@@ -84,7 +84,31 @@ const skills = [
     { id: 16, name: "Hadoop", category: "bigData", proficiency: "expert" },
     { id: 17, name: "Kafka", category: "bigData", proficiency: "expert" },
     
-    { id: 18, name: "TensorFlow", category: "frameworks", proficiency: "advanced" },
+{ id: 18, name: "LangChain", category: "frameworks", proficiency: "intermediate" },
+{ id: 19, name: "PEFT (LoRA / QLoRA)", category: "frameworks", proficiency: "advanced" },
+{ id: 20, name: "NumPy", category: "libraries", proficiency: "advanced" },
+{ id: 21, name: "Pandas", category: "libraries", proficiency: "advanced" },
+{ id: 22, name: "Django", category: "frameworks", proficiency: "intermediate" },
+{ id: 23, name: "Beautiful Soup", category: "libraries", proficiency: "intermediate" },
+{ id: 24, name: "Hugging Face", category: "tools", proficiency: "intermediate" },
+{ id: 25, name: "PyTorch", category: "frameworks", proficiency: "advanced" },
+{ id: 26, name: "TensorFlow", category: "frameworks", proficiency: "advanced" },
+{ id: 27, name: "Scikit-learn", category: "libraries", proficiency: "advanced" },
+{ id: 28, name: "Linux", category: "tools", proficiency: "intermediate" },
+{ id: 29, name: "Git", category: "tools", proficiency: "intermediate" },
+{ id: 30, name: "Tableau", category: "visualization", proficiency: "advanced" },
+{ id: 31, name: "Power BI", category: "visualization", proficiency: "intermediate" },
+{ id: 32, name: "Excel", category: "tools", proficiency: "advanced" },
+{ id: 33, name: "Matplotlib", category: "visualization", proficiency: "intermediate" },
+{ id: 34, name: "Seaborn", category: "visualization", proficiency: "intermediate" },
+{ id: 35, name: "Transformers", category: "libraries", proficiency: "advanced" },
+{ id: 36, name: "spaCy", category: "libraries", proficiency: "intermediate" },
+{ id: 37, name: "NLTK", category: "libraries", proficiency: "intermediate" },
+{ id: 38, name: "Selenium", category: "tools", proficiency: "advanced" },
+
+
+
+
 
 
 
@@ -171,12 +195,14 @@ function ExperienceTimeline({ experiences }) {
 
 const skillCategories = {
     programming: { icon: Code, color: "from-blue-500 to-cyan-500" },
-    frameworks: { icon: Code, color: "from-green-500 to-emerald-500" },
+    frameworks: { icon: LayoutPanelTop, color: "from-teal-600 to-emerald-600" },
     databases: { icon: Database, color: "from-teal-500 to-cyan-500" },
     cloud: { icon: CloudCog, color: "from-amber-400 to-orange-500" },
     tools: { icon: Zap, color: "from-yellow-500 to-orange-500" },
     design: { icon: Zap, color: "from-cyan-500 to-teal-500" },
     bigData: { icon: ChartNoAxesCombined, color: "from-purple-500 to-pink-500" },
+    libraries: { icon: BookOpenText, color: "ffrom-gray-800 to-gray-900" },
+    visualization: { icon: ChartColumnIncreasing, color: "from-rose-500 to-red-600" },
 };
 
 function SkillsGrid({ skills }) {
