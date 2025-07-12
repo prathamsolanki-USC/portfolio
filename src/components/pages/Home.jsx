@@ -10,8 +10,8 @@ import { Card, CardContent } from '@/components/ui/card';
 const personalInfo = {
     full_name: "Pratham Solanki",
     title: "Data Scientist & AI Specialist",
-    bio: "Passionate about transforming data into actionable insights and building intelligent systems that drive business growth.",
-    profile_image: "https://drive.google.com/file/d/1ivl8HPf18xyer15yXMwRq_F0mJ4NnqVT/view?usp=drive_link"
+    bio: "Passionate about AI solutions that put users first, creates real-world impact, and powers intelligent systems that drive business growth.",
+    profile_image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
 };
 
 const featuredProjects = [
