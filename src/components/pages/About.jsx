@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Briefcase, Calendar, MapPin, Code, Database, Zap, Award } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, Code, Database, Zap, Award,CloudCog,ChartNoAxesCombined } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 // Static data
@@ -64,17 +64,41 @@ const experiences = [
 
 const skills = [
     { id: 1, name: "Python", category: "programming", proficiency: "expert" },
-    { id: 2, name: "R", category: "programming", proficiency: "advanced" },
-    { id: 3, name: "SQL", category: "programming", proficiency: "expert" },
-    { id: 4, name: "TensorFlow", category: "frameworks", proficiency: "advanced" },
-    { id: 5, name: "PyTorch", category: "frameworks", proficiency: "intermediate" },
-    { id: 6, name: "Scikit-learn", category: "frameworks", proficiency: "expert" },
-    { id: 7, name: "PostgreSQL", category: "databases", proficiency: "advanced" },
-    { id: 8, name: "MongoDB", category: "databases", proficiency: "intermediate" },
-    { id: 9, name: "AWS", category: "cloud", proficiency: "advanced" },
-    { id: 10, name: "Docker", category: "tools", proficiency: "intermediate" },
-    { id: 11, name: "Tableau", category: "tools", proficiency: "advanced" },
-    { id: 12, name: "Git", category: "tools", proficiency: "expert" }
+    { id: 2, name: "SQL", category: "programming", proficiency: "advanced" },
+    { id: 3, name: "R", category: "programming", proficiency: "expert" },
+    { id: 4, name: "MATLAB", category: "programming", proficiency: "expert" },
+    { id: 5, name: "Scala", category: "programming", proficiency: "expert" },
+
+    { id: 6, name: "AWS", category: "cloud", proficiency: "advanced" },
+    { id: 7, name: "GCP", category: "cloud", proficiency: "advanced" },
+
+    { id: 8, name: "PostgreSQL", category: "databases", proficiency: "advanced" },
+    { id: 9, name: "MySQL", category: "databases", proficiency: "advanced" },
+    { id: 10, name: "MongoDB", category: "databases", proficiency: "advanced" },
+    { id: 11, name: "AWS RDS", category: "databases", proficiency: "advanced" },
+    { id: 12, name: "AWS DynamoDB", category: "databases", proficiency: "advanced" },
+
+    { id: 13, name: "Spark", category: "bigData", proficiency: "expert" },
+    { id: 14, name: "Pyspark", category: "bigData", proficiency: "expert" },
+    { id: 15, name: "MLib", category: "bigData", proficiency: "expert" },
+    { id: 16, name: "Hadoop", category: "bigData", proficiency: "expert" },
+    { id: 17, name: "Kafka", category: "bigData", proficiency: "expert" },
+    
+    { id: 18, name: "TensorFlow", category: "frameworks", proficiency: "advanced" },
+
+
+
+
+
+
+    // { id: 4, name: "TensorFlow", category: "frameworks", proficiency: "advanced" },
+    // { id: 5, name: "PyTorch", category: "frameworks", proficiency: "intermediate" },
+    // { id: 6, name: "Scikit-learn", category: "frameworks", proficiency: "expert" },
+    // { id: 7, name: "PostgreSQL", category: "databases", proficiency: "advanced" },
+    // { id: 8, name: "MongoDB", category: "databases", proficiency: "intermediate" },
+    // { id: 10, name: "Docker", category: "tools", proficiency: "intermediate" },
+    // { id: 11, name: "Tableau", category: "tools", proficiency: "advanced" },
+    // { id: 12, name: "Git", category: "tools", proficiency: "expert" },
 ];
 
 function ExperienceTimeline({ experiences }) {
@@ -107,7 +131,7 @@ function ExperienceTimeline({ experiences }) {
                             </div>
                         </CardHeader>
                         <CardContent className="p-6">
-                            <div className="flex items-center gap-2 text-gray-400 mb-4">
+                            <div className="flex items-center gap-2 text-gray-400 mb-6">
                                 <MapPin className="h-4 w-4" />
                                 <span>{exp.location}</span>
                                 <span className="px-2 py-1 bg-gray-700 rounded-full text-xs font-medium capitalize text-gray-300">
@@ -149,9 +173,10 @@ const skillCategories = {
     programming: { icon: Code, color: "from-blue-500 to-cyan-500" },
     frameworks: { icon: Code, color: "from-green-500 to-emerald-500" },
     databases: { icon: Database, color: "from-teal-500 to-cyan-500" },
-    cloud: { icon: Zap, color: "from-sky-500 to-blue-500" },
+    cloud: { icon: CloudCog, color: "from-amber-400 to-orange-500" },
     tools: { icon: Zap, color: "from-yellow-500 to-orange-500" },
     design: { icon: Zap, color: "from-cyan-500 to-teal-500" },
+    bigData: { icon: ChartNoAxesCombined, color: "from-purple-500 to-pink-500" },
 };
 
 function SkillsGrid({ skills }) {
@@ -165,7 +190,7 @@ function SkillsGrid({ skills }) {
     }, {});
 
     return (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
             {Object.entries(groupedSkills).map(([category, skillList], index) => (
                 <motion.div
                     key={category}
@@ -190,9 +215,9 @@ function SkillsGrid({ skills }) {
                                 {skillList.map(skill => (
                                     <div key={skill.id} className="flex items-center justify-between">
                                         <span className="text-gray-300 font-medium">{skill.name}</span>
-                                        <span className="text-xs text-gray-400 bg-gray-700 px-2 py-1 rounded-full">
+                                        {/* <span className="text-xs text-gray-400 bg-gray-700 px-2 py-1 rounded-full">
                                             {skill.proficiency}
-                                        </span>
+                                        </span> */}
                                     </div>
                                 ))}
                             </div>

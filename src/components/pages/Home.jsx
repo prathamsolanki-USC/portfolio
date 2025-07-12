@@ -62,7 +62,7 @@ function InitialHero({ personalInfo }) {
   <span className="bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent text-6xl sm:text-7xl lg:text-8xl font-extrabold">
     {personalInfo.full_name}
   </span>
-  <span className="text-7xl ml-3"> 😊</span>
+  <span className="text-7xl ml-3">😊</span>
 </span>
                     </h1>
                 </motion.div>
@@ -276,7 +276,7 @@ export default function HomePage() {
             <InitialHero personalInfo={personalInfo} />
             <ProfessionalSection personalInfo={personalInfo} />
             <ProfileImageSection personalInfo={personalInfo} />
-            <FeaturedProjects projects={featuredProjects} />
+            {/* <FeaturedProjects projects={featuredProjects} /> */}
             <CoreCompetencies />
         </div>
     );
