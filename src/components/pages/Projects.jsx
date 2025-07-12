@@ -87,7 +87,7 @@ const projects = [
         image_url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
         technologies: ["Python","OpenCV", "Selenium", "easyOCR"],
         github_url: "https://github.com/prathamsolanki-USC/Smart-Number-Plate-Recognition-System-Owner-Lookup",
-        category: "omputer_vision",
+        category: "computer_vision",
         impact: " Achieved 90% accuracy with strong performance on noisy, real-world images",
         complexity: "expert",
         icon: Eye
