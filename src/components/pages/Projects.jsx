@@ -79,7 +79,31 @@ const projects = [
         impact: "Boosted emotional well-being and daily engagement for elderly users",
         complexity: "expert",
         icon: Eye
-    }
+    },
+        {
+        id: 7,
+        title: "Smart Number Plate Recognition System Owner Lookup",
+        description: "Built a license plate recognition tool using OpenCV, EasyOCR, and Selenium to detect plates, extract text, and auto-fetch owner details from government databases.",
+        image_url: "https://github.com/prathamsolanki-USC/Smart-Number-Plate-Recognition-System-Owner-Lookup",
+        technologies: ["Python","OpenCV", "Selenium", "easyOCR"],
+        github_url: "https://github.com/prathamsolanki-USC/ElderlyCompanionAI",
+        category: "omputer_vision",
+        impact: " Achieved 90% accuracy with strong performance on noisy, real-world images",
+        complexity: "expert",
+        icon: Eye
+    },
+        {
+        id: 8,
+        title: "ElderlyCompanionAI",
+        description: "Developed a virtual companion for seniors enabling empathetic conversations, mood-aware tone shifts, and daily reminders using fine-tuned LLaMA 8B model.",
+        image_url: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
+        technologies: ["Python","QLoRA", "PEFT", "AWS", "GCP"],
+        github_url: "https://github.com/prathamsolanki-USC/ElderlyCompanionAI",
+        category: "AI",
+        impact: "Boosted emotional well-being and daily engagement for elderly users",
+        complexity: "expert",
+        icon: Eye
+    },
 ];
 
 const categories = {
