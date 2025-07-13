@@ -51,7 +51,7 @@ const experiences = [
         {
         id: 3,
         position: "AI Engineer",
-        company: "",
+        company: "Individual",
         location: "Los Angeles",
         start_date: "2025-05-025",
         current: true,
@@ -81,8 +81,25 @@ const experiences = [
         skills: ["Python", "LoRA", "QLoRA", "LLM", "GCP"],
         type: "Intern"
     },
-        {
-        id: 5,
+    {
+        id: 6,
+        position: "Graduate Teaching Assistant for DSCI 553 (Foundations and Applications of Data Mining)",
+        company: "USC Viterbi School of Engineering",
+        location: "Los Angeles, CA",
+        start_date: "2025-01-10",
+        end_date: "2023-07-25",
+        current: true,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Python", "Spark", "Data Minning" ,"Machine Learning"],
+        type: "Part-Time"
+    },
+            {
+        id: 7,
         position: "Data Science",
         company: "TATA Capital",
         location: "Mumbai, Maharashtra",
@@ -98,12 +115,45 @@ const experiences = [
         skills: ["Python", "Tableau", "Machine Learning", "Django", "Azure", "Deep Learning", "Pyspark", "SQL"],
         type: "Intern"
     },
-            {
-        id: 6,
+        {
+        id: 8,
+        position: "Teaching Assistant for MA203 (Probability and stochastic processes)",
+        company: "Sardar Patel Institute of Technology",
+        location: "Mumbai, Maharashtra",
+        start_date: "2023-08-05",
+        end_date: "2023-12-20",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Python", "Probability","Statistics"],
+        type: "Part-Time"
+    },
+    {
+        id: 9,
+        position: "Teaching Assistant for ET207 (Signals and systems)",
+        company: "Sardar Patel Institute of Technology",
+        location: "Mumbai, Maharashtra",
+        start_date: "2023-08-05",
+        end_date: "2023-12-20",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Python", "Signal Processing","Computer Vision"],
+        type: "Part-Time"
+    },
+    {id: 10,
         position: "Data Engineer",
         company: "TATA Capital",
         location: "Mumbai, Maharashtra",
-        start_date: "2022-01-01",
+        start_date: "2022-01-05",
         end_date: "2022-06-25",
         current: false,
         description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
@@ -115,6 +165,59 @@ const experiences = [
         skills: ["Python", "SAS", "ETL", "Tableau", "Azure", "Machine Learning", "Pyspark","SQL"],
         type: "Intern"
     },
+        {id: 11,
+        position: "Head of Operations",
+        company: "Oculus ",
+        location: "Mumbai, Maharashtra",
+        start_date: "2021-02-05",
+        end_date: "2022-03-20",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Team Management", "Cross-Functional Collaboration","Vendor & Partner Management", "Conflict Resolution"],
+        type: "Part-Time"
+    },
+        {id: 11,
+        position: "Head of Operations",
+        company: "IEEE",
+        location: "Mumbai, Maharashtra",
+        start_date: "2020-03-05",
+        end_date: "2022-12-20",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Scheduling & Timeline Management", "Event Planning & Coordination","Budgeting & Resource Allocation"],
+        type: "Part-Time"
+    },
+
+    {id: 12,
+        position: "Training and Placement Coordinator",
+        company: "Sardar Patel Institute of Technology",
+        location: "Mumbai, Maharashtra",
+        start_date: "2020-01-07",
+        end_date: "2020-12-08",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Time Management","Business Communication", "Crisis Management"],
+        type: "Part-Time"
+    },
+
+    
+    
+    
 ];
 
 const skills = [

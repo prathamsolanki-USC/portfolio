@@ -11,7 +11,8 @@ const personalInfo = {
     full_name: "Pratham ",
     title: "Data Scientist & AI Specialist",
     bio: "Passionate about AI that puts users first, drives real-world impact, fuels business growth, and occasionally makes people say \"whoa, that's cool!\"",
-    profile_image: "https://drive.google.com/file/d/1ivl8HPf18xyer15yXMwRq_F0mJ4NnqVT/view?usp=drive_link?w=600&h=400&fit=crop"
+    profile_image: "https://drive.google.com/file/d/1ivl8HPf18xyer15yXMwRq_F0mJ4NnqVT/view?usp=drive_link?w=600&h=400&fit=crop",
+    quote : "Everyone deserves their story, even Data."
 };
 
 const featuredProjects = [
@@ -62,6 +63,10 @@ function InitialHero({ personalInfo }) {
   <span className="bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent text-6xl sm:text-7xl lg:text-8xl font-extrabold">
     {personalInfo.full_name}
   </span>
+
+
+    
+
   <span className="text-7xl ml-3">😊</span>
 </span>
                     </h1>
