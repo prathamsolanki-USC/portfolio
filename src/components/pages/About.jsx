@@ -6,7 +6,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 // Static data
 const personalInfo = {
     title: "Data Scientist & AI Specialist",
-    about: "I'm a passionate data scientist with over 5 years of experience in transforming complex data into actionable business insights. My expertise spans machine learning, deep learning, and statistical analysis, with a strong focus on building scalable AI solutions that drive real business value. I thrive on solving challenging problems and turning data-driven insights into strategic advantages."
+    about: "Hi, I'm Pratham, an AI enthusiast by day and F1 fanatic by weekend. I'm currently pursuing my Master’s in Data Science at USC, with hands-on experience across data engineering, data science, and machine learning. I’ve built legal AI assistants, scaled genomic data pipelines on the cloud, and fine-tuned large language models using techniques like LoRA and PEFT. I'm especially passionate about distributed processing with Spark, optimizing big data workflows, and transforming massive datasets into meaningful insight",
+
+    about2: "I love data! to me it's like a vast ocean filled with hidden treasures, just waiting to be discovered. I enjoy the challenge of hunting those gems, and turning them into stories that make sense. In my journey, I’ve come to believe that hard work and perseverance are few two things we can always control. That’s the mindset I carry : show up, give your best, and keep learning, no matter what comes your way.",
+
+    about3 : "If you're reading this, I’d love to connect and chat about new projects, research, or exciting opportunities. Always open to freelance collaborations, mentoring roles, or just a good conversation around LLMs and the future of AI. Outside of tech, I’m a huge fan of ramen, table tennis, and Formula 1 (always rooting for Hamilton)."
+
+
+
 };
 
 const experiences = [
@@ -200,11 +207,11 @@ const skillCategories = {
     cloud: { icon: CloudCog, color: "from-amber-400 to-orange-500" },
     tools: { icon: Zap, color: "from-yellow-500 to-orange-500" },
     design: { icon: Zap, color: "from-cyan-500 to-teal-500" },
-    bigData: { icon: ChartNoAxesCombined, color: "from-purple-500 to-pink-500" },
+    bigData: { icon: ChartNoAxesCombined, color: "from-rose-500 to-red-600" },
     libraries: { icon: BookOpenText, color: "ffrom-gray-800 to-gray-900" },
-    visualization: { icon: ChartColumnIncreasing, color: "from-rose-500 to-red-600" },
+    visualization: { icon: ChartColumnIncreasing, color: "from-purple-500 to-pink-500" },
 };
-
+// from-purple-500 to-pink-500
 function SkillsGrid({ skills }) {
     const groupedSkills = skills.reduce((acc, skill) => {
         const category = skill.category || 'other';
@@ -271,6 +278,9 @@ export default function AboutPage() {
                         <h2 className="text-2xl text-teal-400 font-semibold mb-6">{personalInfo.title}</h2>
                         <div className="prose prose-lg text-gray-300 leading-relaxed prose-invert max-w-none">
                             <p>{personalInfo.about}</p>
+                            <p>{personalInfo.about2}</p>
+                            <p>{personalInfo.about3}</p>
+
                         </div>
                     </motion.div>
                 </div>

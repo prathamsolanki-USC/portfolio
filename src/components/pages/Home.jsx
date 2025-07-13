@@ -19,7 +19,7 @@ const featuredProjects = [
         id: 1,
         title: "Customer Churn Prediction",
         description: "ML model predicting customer churn with 95% accuracy using advanced ensemble methods.",
-        image_url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+        image_url: "https://images.unsplash.com/photo-1711409254907-fda1c4e05be0?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=600&h=400&fit=crop",
         technologies: ["Python", "Scikit-learn", "XGBoost"],
         featured: true
     },
