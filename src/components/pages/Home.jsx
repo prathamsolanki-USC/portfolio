@@ -70,6 +70,9 @@ function InitialHero({ personalInfo }) {
   <span className="text-7xl ml-3">😊</span>
 </span>
                     </h1>
+
+                    <p className="text-lg sm:text-xl text-teal-400 font-medium mt-50 italic">“Everyone deserves their own story, even data”</p>
+
                 </motion.div>
             </div>
         </div>
