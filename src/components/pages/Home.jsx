@@ -10,8 +10,8 @@ import { Card, CardContent } from '@/components/ui/card';
 const personalInfo = {
     full_name: "Pratham ",
     title: "Data Scientist & AI Specialist",
-    bio: "Passionate about AI solutions that put users first, creates real-world impact and powers intelligent systems that drive business growth.",
-    profile_image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+    bio: "Passionate about AI that puts users first, drives real-world impact, fuels business growth, and occasionally makes people say \"whoa, that's cool!\"",
+    profile_image: ""
 };
 
 const featuredProjects = [
