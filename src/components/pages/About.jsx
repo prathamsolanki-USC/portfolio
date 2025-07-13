@@ -98,23 +98,6 @@ const experiences = [
         skills: ["Python", "Spark", "Data Minning" ,"Machine Learning"],
         type: "Part-Time"
     },
-            {
-        id: 7,
-        position: "Data Science",
-        company: "TATA Capital",
-        location: "Mumbai, Maharashtra",
-        start_date: "2023-02-01",
-        end_date: "2023-07-25",
-        current: false,
-        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
-        achievements: [
-            "Created fraud detection system with 98% accuracy",
-            "Automated reporting processes saving 20 hours/week",
-            "Presented findings to C-level executives"
-        ],
-        skills: ["Python", "Tableau", "Machine Learning", "Django", "Azure", "Deep Learning", "Pyspark", "SQL"],
-        type: "Intern"
-    },
         {
         id: 8,
         position: "Teaching Assistant for MA203 (Probability and stochastic processes)",
@@ -148,6 +131,23 @@ const experiences = [
         ],
         skills: ["Python", "Signal Processing","Computer Vision"],
         type: "Part-Time"
+    },
+                {
+        id: 7,
+        position: "Data Science",
+        company: "TATA Capital",
+        location: "Mumbai, Maharashtra",
+        start_date: "2023-02-01",
+        end_date: "2023-07-25",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Python", "Tableau", "Machine Learning", "Django", "Azure", "Deep Learning", "Pyspark", "SQL"],
+        type: "Intern"
     },
     {id: 10,
         position: "Data Engineer",
