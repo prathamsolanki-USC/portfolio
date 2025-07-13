@@ -11,7 +11,7 @@ const personalInfo = {
     full_name: "Pratham ",
     title: "Data Scientist & AI Specialist",
     bio: "Passionate about AI that puts users first, drives real-world impact, fuels business growth, and occasionally makes people say \"whoa, that's cool!\"",
-    profile_image: ""
+    profile_image: "https://drive.google.com/file/d/1ivl8HPf18xyer15yXMwRq_F0mJ4NnqVT/view?usp=drive_link?w=600&h=400&fit=crop"
 };
 
 const featuredProjects = [

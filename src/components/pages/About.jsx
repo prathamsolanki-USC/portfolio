@@ -12,17 +12,15 @@ const personalInfo = {
 
     about3 : "If you're reading this, I’d love to connect and chat about new projects, research, or exciting opportunities. Always open to freelance collaborations, mentoring roles, or just a good conversation around LLMs and the future of AI. Outside of tech, I’m a huge fan of ramen, table tennis, and Formula 1 (always rooting for Hamilton)."
 
-
-
 };
 
 const experiences = [
     {
         id: 1,
-        position: "Senior Data Scientist",
-        company: "TechCorp Solutions",
-        location: "San Francisco, CA",
-        start_date: "2022-01-01",
+        position: "Data Scientist",
+        company: "EmpiriLaw",
+        location: "Los Angeles, CA",
+        start_date: "2024-06-03",
         current: true,
         description: "Leading machine learning initiatives and building predictive models that drive business growth. Responsible for end-to-end ML pipeline development and deployment.",
         achievements: [
@@ -30,16 +28,49 @@ const experiences = [
             "Built real-time recommendation system increasing revenue by 15%",
             "Led team of 3 junior data scientists"
         ],
-        skills: ["Python", "TensorFlow", "AWS", "SQL", "Docker"],
-        type: "full_time"
+        skills: ["LegalBert", "RAG", "AWS", "Computer Vision", "Audio Signal Processing"],
+        type: "Intern"
     },
     {
         id: 2,
-        position: "Data Scientist",
-        company: "Analytics Pro",
-        location: "New York, NY",
-        start_date: "2020-03-01",
-        end_date: "2021-12-31",
+        position: "Research Assistant",
+        company: "USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences",
+        location: "Los Angeles, CA",
+        start_date: "2025-05-025",
+        // end_date: "2025-06-025",
+        current: true,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Python", "AWS EMR", "AWS Glue", "AWS RDS", "AWS S3", "AWS Lmabda"],
+        type: "Part-time"
+    },
+        {
+        id: 3,
+        position: "AI Engineer",
+        company: "",
+        location: "Los Angeles",
+        start_date: "2025-05-025",
+        current: true,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["RAG", "PEFT", "Fine-tuning", "GPT", "Gemini"],
+        type: "Contractual"
+    },
+    {
+        id: 4,
+        position: "Machine Learning Engineer",
+        company: "Vosyn",
+        location: "Chicago, Illinois",
+        start_date: "2025-03-025",
+        end_date: "2025-06-025",
         current: false,
         description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
         achievements: [
@@ -47,26 +78,43 @@ const experiences = [
             "Automated reporting processes saving 20 hours/week",
             "Presented findings to C-level executives"
         ],
-        skills: ["R", "Python", "Tableau", "PostgreSQL"],
-        type: "full_time"
+        skills: ["Python", "LoRA", "QLoRA", "LLM", "GCP"],
+        type: "Intern"
     },
-    {
-        id: 3,
-        position: "Junior Data Analyst",
-        company: "StartupXYZ",
-        location: "Remote",
-        start_date: "2019-06-01",
-        end_date: "2020-02-29",
+        {
+        id: 5,
+        position: "Data Science",
+        company: "TATA Capital",
+        location: "Mumbai, Maharashtra",
+        start_date: "2023-02-01",
+        end_date: "2023-07-25",
         current: false,
-        description: "Performed statistical analysis and created visualizations to support business decisions. Maintained data pipelines and ensured data quality.",
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
         achievements: [
-            "Improved data accuracy by 30% through quality checks",
-            "Created executive dashboards used company-wide",
-            "Completed advanced SQL and Python training"
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
         ],
-        skills: ["SQL", "Python", "Excel", "Power BI"],
-        type: "full_time"
-    }
+        skills: ["Python", "Tableau", "Machine Learning", "Django", "Azure", "Deep Learning", "Pyspark", "SQL"],
+        type: "Intern"
+    },
+            {
+        id: 6,
+        position: "Data Engineer",
+        company: "TATA Capital",
+        location: "Mumbai, Maharashtra",
+        start_date: "2022-01-01",
+        end_date: "2022-06-25",
+        current: false,
+        description: "Developed machine learning models for financial forecasting and risk assessment. Collaborated with cross-functional teams to implement data-driven solutions.",
+        achievements: [
+            "Created fraud detection system with 98% accuracy",
+            "Automated reporting processes saving 20 hours/week",
+            "Presented findings to C-level executives"
+        ],
+        skills: ["Python", "SAS", "ETL", "Tableau", "Azure", "Machine Learning", "Pyspark","SQL"],
+        type: "Intern"
+    },
 ];
 
 const skills = [
@@ -169,7 +217,7 @@ function ExperienceTimeline({ experiences }) {
                                     {exp.type?.replace(/_/g, ' ')}
                                 </span>
                             </div>
-                            <p className="text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
+                            {/* <p className="text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
                             {exp.achievements && exp.achievements.length > 0 && (
                                 <div className="mb-4">
                                     <h4 className="font-semibold text-white mb-2 flex items-center gap-2">
@@ -182,7 +230,7 @@ function ExperienceTimeline({ experiences }) {
                                         ))}
                                     </ul>
                                 </div>
-                            )}
+                            )} */}
                             {exp.skills && exp.skills.length > 0 && (
                                 <div className="flex flex-wrap gap-2">
                                     {exp.skills.map(skill => (
