@@ -188,9 +188,15 @@ function ProjectCard({ project, index }) {
                                 </Button>
                             )}
                         </div>
-                        <Button asChild variant="outline" size="sm" className="border-teal-500/50 text-teal-400 hover:bg-teal-500/10 hover:text-teal-300 hover:border-teal-500">
+                        {/* <Button asChild variant="outline" size="sm" className="border-teal-500/50 text-teal-400 hover:bg-teal-500/10 hover:text-teal-300 hover:border-teal-500">
                             <Link to={createPageUrl(`ProjectDetails?id=${project.id}`)}>
                                 Details <ArrowRight className="ml-1 h-3 w-3" />
+                            </Link>
+                        </Button> */}
+
+                        <Button asChild variant="outline" size="sm" className="border-teal-500/50 text-teal-400 hover:bg-teal-500/10 hover:text-teal-300 hover:border-teal-500">
+                            <Link to={createPageUrl(`https://github.com/prathamsolanki-USC`)}>
+                                <ArrowRight className="ml-1 h-3 w-3" />
                             </Link>
                         </Button>
                     </div>
